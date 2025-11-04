@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Baba Chicken Corner</title>
+  <meta name="description" content="Baba Chicken Corner - Fresh, crispy, and packed with flavor. Order via WhatsApp!" />
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home">
+        <div class="logo-mark" aria-hidden="true">B</div>
+        <div class="brand-text">
+          <strong>Baba</strong>
+          <span>Chicken Corner</span>
+        </div>
+      </a>
+
+      <button id="navToggle" class="nav-toggle" aria-label="Toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+
+      <nav class="site-nav" id="siteNav" aria-label="Main navigation">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1>Welcome to <span class="accent">Baba Chicken Corner</span></h1>
+          <p class="lead">Crispy, juicy, and full of flavor — made fresh every day. Fast service, family recipes.</p>
+          <div class="hero-cta">
+            <a id="whatsappCTABtn" class="btn btn-primary" href="https://wa.me/1234567890?text=Hi%20Baba%20Chicken%20Corner%21%20I%27d%20like%20to%20place%20an%20order." target="_blank" rel="noopener">Order on WhatsApp</a>
+            <a class="btn btn-secondary" href="#menu">See Menu</a>
+          </div>
+          <ul class="highlights">
+            <li>Freshly cooked</li>
+            <li>Family recipes</li>
+            <li>Pickup & Delivery</li>
+          </ul>
+        </div>
+
+        <div class="hero-image" aria-hidden="true">
+          <img src="https://images.unsplash.com/photo-1604908177927-83b1a7b0b8d9?q=80&w=900&auto=format&fit=crop&crop=entropy" alt="Crispy fried chicken"/>
+        </div>
+      </div>
+    </section>
+
+    <section id="menu" class="section menu-section">
+      <div class="container">
+        <h2 class="section-title">Menu</h2>
+        <p class="section-sub">Delicious choices for every appetite.</p>
+
+        <div class="menu-grid">
+          <article class="menu-item">
+            <div>
+              <h3>Classic Fried Chicken</h3>
+              <p class="desc">Crispy golden chicken, seasoned to perfection.</p>
+            </div>
+            <div class="price">$7.99</div>
+          </article>
+
+          <article class="menu-item">
+            <div>
+              <h3>Spicy Wings (6 pcs)</h3>
+              <p class="desc">Fiery house hot sauce — not for the faint-hearted.</p>
+            </div>
+            <div class="price">$6.50</div>
+          </article>
+
+          <article class="menu-item">
+            <div>
+              <h3>BBQ Drumsticks (3 pcs)</h3>
+              <p class="desc">Smoky BBQ glaze, tender inside.</p>
+            </div>
+            <div class="price">$8.49</div>
+          </article>
+
+          <article class="menu-item">
+            <div>
+              <h3>Family Bucket</h3>
+              <p class="desc">12 pieces + 2 large fries — perfect for sharing.</p>
+            </div>
+            <div class="price">$24.99</div>
+          </article>
+
+          <article class="menu-item">
+            <div>
+              <h3>Fries (Large)</h3>
+              <p class="desc">Crispy salted fries, golden and hot.</p>
+            </div>
+            <div class="price">$3.49</div>
+          </article>
+
+          <article class="menu-item">
+            <div>
+              <h3>Soft Drink</h3>
+              <p class="desc">Choice of cola, lemon-lime, or orange.</p>
+            </div>
+            <div class="price">$1.99</div>
+          </article>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="gallery" class="section gallery-section">
+      <div class="container">
+        <h2 class="section-title">Gallery</h2>
+        <p class="section-sub">A taste of what we serve.</p>
+
+        <div class="gallery-grid">
+          <img src="https://images.unsplash.com/photo-1608133604522-7c97835b2e06?q=80&w=800&auto=format&fit=crop&crop=entropy" alt="Bucket of chicken"/>
+          <img src="https://images.unsplash.com/photo-1603993097397-89cb7f8d5e1e?q=80&w=800&auto=format&fit=crop&crop=entropy" alt="Chicken wings"/>
+          <img src="https://images.unsplash.com/photo-1541544815844-5f5c5d7d0a2f?q=80&w=800&auto=format&fit=crop&crop=entropy" alt="Grilled drumsticks"/>
+          <img src="https://images.unsplash.com/photo-1617191517005-75fb8b3c2d8a?q=80&w=800&auto=format&fit=crop&crop=entropy" alt="Fries and sauce"/>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container contact-grid">
+        <div class="contact-info">
+          <h2 class="section-title">Contact & Location</h2>
+          <p class="section-sub">Drop by or order for pickup & delivery.</p>
+
+          <ul class="contact-list">
+            <li><strong>Address:</strong> 123 Flavor Street, Foodville</li>
+            <li><strong>Phone:</strong> <a href="tel:+1234567890">+1 (234) 567-890</a></li>
+            <li><strong>Opening Hours:</strong>
+              <ul>
+                <li>Mon–Fri: 10:00 — 22:00</li>
+                <li>Sat–Sun: 09:00 — 23:00</li>
+              </ul>
+            </li>
+          </ul>
+
+          <div class="contact-actions">
+            <a class="btn btn-primary" href="https://wa.me/1234567890?text=Hello%20Baba%20Chicken%21%20I%27d%20like%20to%20order" target="_blank" rel="noopener">Order on WhatsApp</a>
+            <a class="btn btn-outline" href="mailto:hello@babachickencorner.example">Email Us</a>
+          </div>
+        </div>
+
+        <div class="map-wrap">
+          <!-- Replace the src with your Google Maps embed URL or coordinates. -->
+          <iframe
+            src="https://www.google.com/maps?q=Baba%20Chicken%20Corner%20Foodville&output=embed"
+            width="100%" height="320" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Baba Chicken Corner — Made with love & spice</p>
+    </div>
+  </footer>
+
+  <a id="floatingWA" class="whatsapp-float" href="https://wa.me/1234567890?text=Hi%20Baba%20Chicken%21%20I%27d%20like%20to%20order" target="_blank" rel="noopener" aria-label="Order on WhatsApp">
+    <span class="wa-dot"></span>
+    <span class="wa-text">WhatsApp</span>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
